@@ -6,7 +6,7 @@ const productRoutes = require("./routes/products");
 const userRoutes = require("./routes/user");
 const cartRoutes = require("./routes/cart");
 
-const cors = require(cors);
+const cors = require('cors');
 
 const app = express();
 
@@ -26,7 +26,7 @@ app.use("/api/auth", userRoutes);
 app.use("/api/cart", cartRoutes);
 
 // Use port 10000 or the environment's port
-const PORT = 10000;
+const PORT = process.env.PORT || 4000;
 
 // Connect to MongoDB and start the server
 mongoose
