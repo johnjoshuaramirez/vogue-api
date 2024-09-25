@@ -21,15 +21,18 @@ app.use("/api/products", productRoutes);
 app.use("/api/auth", userRoutes);
 app.use("/api/cart", cartRoutes);
 
+// Use port 10000 or the environment's port
+const PORT = process.env.PORT || 10000;
+
 // Connect to MongoDB and start the server
 mongoose
   .connect(
     "mongodb+srv://admin:admin@cluster0.vevs0.mongodb.net/vogue?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
-    app.listen(process.env.PORT, () => {
+    app.listen(PORT, () => {
       console.log("connected to db");
-      console.log("listening on port", process.env.PORT);
+      console.log("listening on port", PORT);
     });
   })
   .catch(error => {
