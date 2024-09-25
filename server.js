@@ -22,7 +22,7 @@ app.use("/api/auth", userRoutes);
 app.use("/api/cart", cartRoutes);
 
 // Use port 10000 or the environment's port
-const PORT = process.env.PORT || 10000;
+const PORT = 10000;
 
 // Connect to MongoDB and start the server
 mongoose
