@@ -2,9 +2,8 @@
 | ENDPOINT             | METHOD | REQUEST BODY                              | RESPONSE BODY                            | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------------------|------------------------------|
 |`/api/auth/signup`|POST|`{ email, firstName, lastName, password }`| JSON |Sign Up User|
-|`/api/auth/signin`|POST|`{ "email": "juancruz@gmail.com", "password": "juancruz123" }`| JSON |Sign In User|
-| `/api/cart`    | POST   | `{ "username": "john", "password": "123" }` | `{ "token": "jwt-token" }`              | Add Cart Item |
-| `/api/products`      | GET    | –                                         | `[ { "id": 1, "name": "Item A" } ]`      | Fetch product list           |
-| `/api/products/:id`  | GET    | –                                         | `{ "id": 1, "name": "Item A" }`          | Get product details by ID    |
-| `/api/cart`          | POST   | `{ "productId": 1, "quantity": 2 }`        | `{ "message": "Added to cart" }`         | Add item to cart             |
+|`/api/auth/signin`|POST|`{ email, password }`| JSON |Sign In User|
+| `/api/products`|GET|–|JSON|Get All Products|
+| `/api/products/:id`|GET|–|JSON|Get Single Product|
+| `/api/products`|POST|`{ name, price, description, stock, imageUrl, category, trending }`|JSON|Post Product|
 | `/api/cart/:id`      | DELETE | –                                         | `{ "message": "Item removed" }`          | Remove item from cart        |
