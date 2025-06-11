@@ -43,7 +43,6 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
 [![React Router](https://img.shields.io/badge/React%20Router-%23CA4245.svg?logo=react-router&logoColor=white)](#)
 [![JWT](https://img.shields.io/badge/JWT-black?logo=jsonwebtokens&logoColor=white)](#)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](#)
 [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
 
 ---
