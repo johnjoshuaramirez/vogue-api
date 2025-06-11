@@ -6,8 +6,6 @@ Live site: https://vogue-ijwh.onrender.com/
 
 ### Endpoints
 
-Application provides 13 endpoints. Please follow the specification below:
-
 Service url: https://vogue-api.onrender.com
 | ENDPOINT             | METHOD | REQUEST BODY                              | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------|
