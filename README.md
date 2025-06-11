@@ -1,8 +1,8 @@
 
 | ENDPOINT             | METHOD | REQUEST BODY                              | RESPONSE BODY                            | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------------------|------------------------------|
-|`/api/auth/signup`|POST|`{ "email": "test@gmail.com", "firstName": "Juan", "lastName": "Cruz", "password": "juancruz123" }`|`{ "email": "test@gmail.com", "firstName": "Juan", "lastName": "Cruz", "password": "juancruz123", "_id": "1" }`|Sign Up User|
-| `/api/cart` | GET   | - | -     | Get All Cart Items         |
+|`/api/auth/signup`|POST|`{ "email": "juancruz@gmail.com", "firstName": "Juan", "lastName": "Cruz", "password": "juancruz123" }`|`{ "email": "juancruz@gmail.com", "firstName": "Juan", "lastName": "Cruz", "password": "<hashed>", "_id": "<unique_id>" }`|Sign Up User|
+|`/api/auth/signin`|POST|`{ "email": "juancruz@gmail.com", "password": "juancruz123" }`|`{ "token": "jwt" }`|Sign In User|
 | `/api/cart`    | POST   | `{ "username": "john", "password": "123" }` | `{ "token": "jwt-token" }`              | Add Cart Item |
 | `/api/products`      | GET    | –                                         | `[ { "id": 1, "name": "Item A" } ]`      | Fetch product list           |
 | `/api/products/:id`  | GET    | –                                         | `{ "id": 1, "name": "Item A" }`          | Get product details by ID    |
