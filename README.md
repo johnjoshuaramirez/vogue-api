@@ -1,7 +1,7 @@
 
 | ENDPOINT             | METHOD | REQUEST BODY                              | RESPONSE BODY                            | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------------------|------------------------------|
-| `/api/cart` | GET   | `{ "username": "john", "password": "123" }` | -     | Get All Cart Items         |
+| `/api/cart` | GET   | - | -     | Get All Cart Items         |
 | `/api/auth/login`    | POST   | `{ "username": "john", "password": "123" }` | `{ "token": "jwt-token" }`              | Authenticate user & get token |
 | `/api/products`      | GET    | –                                         | `[ { "id": 1, "name": "Item A" } ]`      | Fetch product list           |
 | `/api/products/:id`  | GET    | –                                         | `{ "id": 1, "name": "Item A" }`          | Get product details by ID    |
