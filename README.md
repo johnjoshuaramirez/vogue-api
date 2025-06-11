@@ -1,6 +1,7 @@
 
 | ENDPOINT             | METHOD | REQUEST BODY                              | RESPONSE BODY                            | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------------------|------------------------------|
+| `/api/auth/signup`      | POST | `{ "email": "test@gmail.com", "firstName": "Juan", "lastName": "Cruz", "password": "juancruz123" }`                                  | `{ "message": "Item removed" }`          | Remove item from cart        |
 | `/api/cart` | GET   | - | -     | Get All Cart Items         |
 | `/api/cart`    | POST   | `{ "username": "john", "password": "123" }` | `{ "token": "jwt-token" }`              | Add Cart Item |
 | `/api/products`      | GET    | –                                         | `[ { "id": 1, "name": "Item A" } ]`      | Fetch product list           |
