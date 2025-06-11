@@ -1,62 +1,66 @@
 ### Features
 
 - **User Registration & Login**  
-  Users can create accounts, securely log in, and manage sessions (login/logout).
+  Users can create accounts and securely log in/out.
 
 - **Product Listing & Details View**  
-  Browse all available items using a list/detail layout to view full product information.
+  View products using a list/detail layout with full information.
 
 - **Search, Filter & Sort**  
-  Quickly find products with keyword search, filter by category butes, and sort by price and date.
+  Easily search for products, filter by category, and sort by price or date.
 
 - **Shopping Cart Functionality**  
-  Add items to a shopping cart and view all selected items in a single place.
+  Add items to the cart and view selected products in one place.
 
 - **Cart Item Quantity Controls**  
-  Easily increment or decrement item quantities within the cart.
+  Increment or decrement quantities directly in the cart.
 
 - **Item Selection & Checkout Preparation**  
-  Select specific products and prepare them for checkout.
+  Select products and prepare them for checkout.
 
-### Application Specifications
+---
 
-- **Frontend: React with Tailwind CSS**  
-  The user interface is built using React, providing a component-based, scalable architecture. Tailwind CSS ensures a clean, responsive design that adapts seamlessly across devices.
+### Specifications
 
-- **Backend: Node.js with Express.js**  
-  A backend API developed using Express.js, running on Node.js. It handles all business logic, routing, and communication with the database.
+- **React with Tailwind CSS**  
+  Built using React for a scalable UI and Tailwind CSS for responsive design.
 
-- **Database: MongoDB (NoSQL)**  
-  MongoDB is used for persistent data storage in managing user records and products.
+- **React Router**  
+  SPA navigation handled with React Router for dynamic routing.
+
+- **React Context API & Custom Hooks**  
+  Application state (user session, cart) managed via Context and custom hooks.
 
 - **Authentication & Security**  
-  User registration and login are secured using **bcrypt** for password hashing. Authentication is handled using JSON Web Tokens (JWT) to securely verify user identity across sessions. Protected routes ensure that only authorized users can access restricted features.
+  Login uses **bcrypt**-secured credentials and **JWT** for token-based authentication. Protected routes ensure secure access.
 
-- **State Management: React Context API & Custom Hooks**  
-  Application state is handled using the Context API. Custom hooks encapsulate logic for reusability and cleaner code.
-
-- **Routing: React Router**  
-  Page navigation is handled using React Router, enabling seamless transitions between views without full page reloads. This allows users to navigate across public and protected pages.
+---
 
 ### Tools and Technologies
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#) [![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#) [![React Router](https://img.shields.io/badge/React%20Router-%23CA4245.svg?logo=react-router&logoColor=white)](#) [![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](#) [![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB)](#) [![NPM](https://custom-icon-badges.demolab.com/badge/NPM-%23CB3837.svg?logo=npm&logoColor=white)](#) [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white)](#) [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#) [![Postman](https://custom-icon-badges.demolab.com/badge/Postman-FF6C37.svg?logo=postman&logoColor=white)](#) [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
+[![React Router](https://img.shields.io/badge/React%20Router-%23CA4245.svg?logo=react-router&logoColor=white)](#)
+[![JWT](https://img.shields.io/badge/JWT-black?logo=jsonwebtokens&logoColor=white)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](#)
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
 
-### Installation and Running
+---
 
 ### Future Improvements
 
-- **Admin Dashboard**
-  Create an admin dashboard to manage ecommerce orders and product listings with admin access only.
+- **Admin Dashboard**  
+  Add a secure admin panel to manage product listings and orders.
 
 - **Add Testing**  
-  Use React Testing Library and Jest to test components and key user interactions.
+  Use React Testing Library and Jest for component and interaction testing.
 
 - **Convert to TypeScript**  
-  Migrate the project to React with TypeScript for better type safety and code quality.
+  Refactor to React + TypeScript for better maintainability and type safety.
 
 - **Improve Error Handling**  
-  Add basic error boundaries and user-friendly error messages.
+  Add error boundaries and fallback UIs for more robust UX.
 
 - **Performance Optimization**  
-  Lazy load components and improve state handling where needed.
+  Implement lazy loading and optimize state updates for better speed.
