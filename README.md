@@ -9,8 +9,8 @@
 |`/api/products`|POST|`{ name, price, description, stock, imageUrl, category, trending }`|Post Product|
 |`/api/products/trending`|GET|-|Get Trending Products|
 |`/api/cart`|GET|-|Get All Cart Items|
-|`/api/cart`|POST|{}|Add Cart Item|
-|`/api/cart/checkout`|POST|{}|Checkout Order|
+|`/api/cart`|POST|{ productId, imageUrl, name, price, quantity, color, size }|Add Cart Item|
+|`/api/cart/checkout`|POST|{ email, firstName, lastName, address, province, city, phone, order }|Checkout Order|
 |`/api/cart/increment`|PATCH|-|Increment Cart Item|
 |`/api/cart/decrement`|PATCH|-|Decrement Cart Item|
 |`/api/cart`|DELETE|-|Delete Cart Item|
