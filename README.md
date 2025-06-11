@@ -10,12 +10,12 @@ Application provides 13 endpoints. Please follow the specification below:
 Service url: https://vogue-api.onrender.com
 | ENDPOINT             | METHOD | REQUEST BODY                              | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------|
-|`/api/auth/signup`|POST|`{ email, firstName, lastName, password }`|Sign Up User|
-|`/api/auth/signin`|POST|`{ email, password }`|Sign In User|
+|`/api/auth/signup`|POST|{ email, firstName, lastName, password }|Sign Up User|
+|`/api/auth/signin`|POST|{ email, password }|Sign In User|
 |`/api/auth`|GET|Authorization: Bearer Token |Get User Data|
 |`/api/products`|GET|–|Get All Products|
 |`/api/products/:productId`|GET|–|Get Single Product|
-|`/api/products`|POST|`{ name, price, description, stock, imageUrl, category, trending }`|Post Product|
+|`/api/products`|POST|{ name, price, description, stock, imageUrl, category, trending }|Post Product|
 |`/api/products/trending`|GET|-|Get Trending Products|
 |`/api/cart`|GET|-|Get All Cart Items|
 |`/api/cart`|POST|{ productId, imageUrl, name, price, quantity, color, size }|Add Cart Item|
