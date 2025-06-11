@@ -1,5 +1,7 @@
 Live Site: https://vogue-ijwh.onrender.com/
 
+Vogue is a simple eCommerce site with product listings, cart functionality, and a checkout preview.
+
 ### Features
 
 - **User Registration & Login**  
