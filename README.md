@@ -11,6 +11,6 @@
 |`/api/cart`|GET|-|Get All Cart Items|
 |`/api/cart`|POST|{ productId, imageUrl, name, price, quantity, color, size }|Add Cart Item|
 |`/api/cart/checkout`|POST|{ email, firstName, lastName, address, province, city, phone, order }|Checkout Order|
-|`/api/cart/increment`|PATCH|-|Increment Cart Item|
-|`/api/cart/decrement`|PATCH|-|Decrement Cart Item|
-|`/api/cart`|DELETE|-|Delete Cart Item|
+|`/api/cart/increment`|PATCH|{ productId, color, size }|Increment Cart Item|
+|`/api/cart/decrement`|PATCH|{ productId, color, size }|Decrement Cart Item|
+|`/api/cart`|DELETE|{ productId, color, size }|Delete Cart Item|
