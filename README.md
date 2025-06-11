@@ -5,7 +5,7 @@
 |`/api/auth/signin`|POST|`{ email, password }`|Sign In User|
 |`/api/auth`|GET|Authorization: Bearer Token |Get User Data|
 |`/api/products`|GET|–|Get All Products|
-|`/api/products/:id`|GET|–|Get Single Product|
+|`/api/products/:productId`|GET|–|Get Single Product|
 |`/api/products`|POST|`{ name, price, description, stock, imageUrl, category, trending }`|Post Product|
 |`/api/products/trending`|GET|-|Get Trending Products|
 |`/api/cart`|GET|-|Get All Cart Items|
