@@ -6,4 +6,4 @@
 | `/api/products`|GET|–|JSON|Get All Products|
 | `/api/products/:id`|GET|–|JSON|Get Single Product|
 | `/api/products`|POST|`{ name, price, description, stock, imageUrl, category, trending }`|JSON|Post Product|
-| `/api/cart/:id`      | DELETE | –                                         | `{ "message": "Item removed" }`          | Remove item from cart        |
+| `/api/products/trending`|GET|-|JSON|Get Trending Products|
