@@ -3,7 +3,7 @@
 |----------------------|--------|-------------------------------------------|------------------------------|
 |`/api/auth/signup`|POST|`{ email, firstName, lastName, password }`|Sign Up User|
 |`/api/auth/signin`|POST|`{ email, password }`|Sign In User|
-|`/api/auth`|GET|Authorization: Token |Get User Data|
+|`/api/auth`|GET|Authorization: Bearer Token |Get User Data|
 |`/api/products`|GET|–|Get All Products|
 |`/api/products/:id`|GET|–|Get Single Product|
 |`/api/products`|POST|`{ name, price, description, stock, imageUrl, category, trending }`|Post Product|
