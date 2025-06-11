@@ -1,6 +1,6 @@
 
-| ENDPOINT             | METHOD | REQUEST BODY                              | RESPONSE BODY                            | FUNCTION                     |
-|----------------------|--------|-------------------------------------------|------------------------------------------|------------------------------|
+| ENDPOINT             | METHOD | REQUEST BODY                              | FUNCTION                     |
+|----------------------|--------|-------------------------------------------|------------------------------|
 |`/api/auth/signup`|POST|`{ email, firstName, lastName, password }`| JSON |Sign Up User|
 |`/api/auth/signin`|POST|`{ email, password }`| JSON |Sign In User|
 |`/api/auth`|GET|-|JSON|Get User Data|
