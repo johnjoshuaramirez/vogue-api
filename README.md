@@ -18,8 +18,6 @@
 - **Item Selection & Checkout Preparation**  
   Select products and prepare them for checkout.
 
----
-
 ### Specifications
 
 - **React with Tailwind CSS**  
@@ -34,8 +32,6 @@
 - **Authentication & Security**  
   Login uses **bcrypt**-secured credentials and **JWT** for token-based authentication. Protected routes ensure secure access.
 
----
-
 ### Tools and Technologies
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
@@ -44,8 +40,6 @@
 [![React Router](https://img.shields.io/badge/React%20Router-%23CA4245.svg?logo=react-router&logoColor=white)](#)
 [![JWT](https://img.shields.io/badge/JWT-black?logo=jsonwebtokens&logoColor=white)](#)
 [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
-
----
 
 ### Future Improvements
 
