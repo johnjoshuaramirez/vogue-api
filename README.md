@@ -1,8 +1,8 @@
 
 | ENDPOINT             | METHOD | REQUEST BODY                              | RESPONSE BODY                            | FUNCTION                     |
 |----------------------|--------|-------------------------------------------|------------------------------------------|------------------------------|
-|`/api/auth/signup`|POST|`{ email, firstName, lastName, password }`|`{ email, firstName, lastName, password, id }`|Sign Up User|
-|`/api/auth/signin`|POST|`{ "email": "juancruz@gmail.com", "password": "juancruz123" }`|`{ "token": "jwt" }`|Sign In User|
+|`/api/auth/signup`|POST|`{ email, firstName, lastName, password }`| JSON |Sign Up User|
+|`/api/auth/signin`|POST|`{ "email": "juancruz@gmail.com", "password": "juancruz123" }`| JSON |Sign In User|
 | `/api/cart`    | POST   | `{ "username": "john", "password": "123" }` | `{ "token": "jwt-token" }`              | Add Cart Item |
 | `/api/products`      | GET    | –                                         | `[ { "id": 1, "name": "Item A" } ]`      | Fetch product list           |
 | `/api/products/:id`  | GET    | –                                         | `{ "id": 1, "name": "Item A" }`          | Get product details by ID    |
