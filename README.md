@@ -1,16 +1,54 @@
-Live site: https://vogue-ijwh.onrender.com/
+Task (Client)
+You can check the application here: https://task-rszt.onrender.com
 
-### Vogue REST API Overview
+The Task web application provides a responsive and user-friendly interface for managing task assignments within an organization. Built with Angular and styled using SCSS, the frontend ensures a seamless experience for both admin and employee users. Authentication is handled via JWT, enabling secure access and role-based routing across the app.
 
-User Authentication – Sign up, sign in, and securely retrieve user data using JWT-based authentication
-Product Management – Fetch all products, get product details, and manage trending items.
-Shopping Cart System – Add, update (increment/decrement), and delete items in a user's cart.
-Order Checkout – Submit user information and order details for checkout.
+🔑 Key Features:
 
-### Technologies Used
+Admin and Employee role-based dashboards
 
-[![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](#) [![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB)](#) [![JWT](https://img.shields.io/badge/JWT-black?logo=jsonwebtokens&logoColor=white)](#) [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white)](#) [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#) [![Postman](https://custom-icon-badges.demolab.com/badge/Postman-FF6C37.svg?logo=postman&logoColor=white)](#)
+Secure login, registration, and logout with JWT
 
+Task creation, assignment, and tracking by Admins
+
+Employees can view, update status, and comment on assigned tasks
+
+Task detail and list view with card-based UI
+
+Keyword search for products/tasks
+
+Comment threads for task collaboration
+
+🎨 Technologies:
+
+Angular (SPA framework)
+
+Angular Material (UI components and layout)
+
+SCSS (modular and maintainable styling)
+
+RxJS (reactive programming for async data)
+
+JWT (for secure route guarding and user sessions)
+
+TypeScript (strong typing and scalable codebase)
+
+✅ Design & Architecture:
+
+Component-Based Architecture
+Encapsulated UI and logic for maintainability and reusability.
+
+Reactive Forms
+Used for login, registration, and task input with full validation support.
+
+Route Guards
+Role-based access control implemented via Angular route guards.
+
+Service Layer
+Centralized services handle API communication and state management.
+
+Responsive Design
+Fully responsive UI using Angular Material’s grid and layout utilities.
 ### Endpoints
 
 Service url: https://vogue-api.onrender.com
